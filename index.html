@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Class 4 - Forms</title>
+  <title>Class 5 - HTML Tables</title>
 </head>
 <body>
-  <h1>Contact Me</h1>
+  <h1>Student Result Sheet</h1>
 
-  <form action="#">
-    <label>Full Name:</label><br>
-    <input type="text" placeholder="Enter your name"><br><br>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+      <th>Roll No</th>
+      <th>Name</th>
+      <th>Marks</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>Arjawan</td>
+      <td>95</td>
+      <td>A+</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Areeba</td>
+      <td>88</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>Iqra</td>
+      <td>76</td>
+      <td>B</td>
+    </tr>
+  </table>
 
-    <label>Email:</label><br>
-    <input type="email" placeholder="Enter your email"><br><br>
-
-    <label>Password:</label><br>
-    <input type="password" placeholder="Enter password"><br><br>
-
-    <label>Gender:</label><br>
-    <input type="radio" name="gender"> Male
-    <input type="radio" name="gender"> Female<br><br>
-
-    <label>Skills:</label><br>
-    <input type="checkbox"> HTML
-    <input type="checkbox"> CSS
-    <input type="checkbox"> JavaScript<br><br>
-
-    <label>Your Message:</label><br>
-    <textarea rows="4" cols="30" placeholder="Write your message..."></textarea><br><br>
-
-    <input type="submit" value="Submit">
-  </form>
 </body>
 </html>
