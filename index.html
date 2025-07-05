@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Class 11 - Display, Position & Visibility</title>
+  <title>Class 12 - Hover & Button Styling</title>
   <style>
-    .box1 {
-      background-color: lightgreen;
-      padding: 20px;
-      margin-bottom: 10px;
-      display: inline-block;
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f0f0;
+      padding: 30px;
+      text-align: center;
     }
 
-    .box2 {
-      background-color: lightcoral;
-      padding: 20px;
-      position: relative;
-      top: 20px;
-      left: 30px;
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.4s ease, transform 0.3s;
     }
 
-    .box3 {
-      background-color: lightblue;
+    .btn:hover {
+      background-color: #388e3c;
+      transform: scale(1.1);
+    }
+
+    .box {
+      background-color: #ffccbc;
       padding: 20px;
-      visibility: hidden;
+      margin: 30px auto;
+      width: 300px;
+      transition: background-color 0.5s ease;
+    }
+
+    .box:hover {
+      background-color: #ff8a65;
     }
   </style>
 </head>
 <body>
 
-  <h1>CSS Display, Position & Visibility</h1>
+  <h1>CSS Hover & Transitions</h1>
 
-  <div class="box1">Box 1 (display: inline-block)</div>
-  <div class="box2">Box 2 (position: relative, moved)</div>
-  <div class="box3">Box 3 (visibility: hidden)</div>
+  <div class="box">
+    Hover on this box to change color 🎨
+  </div>
+
+  <button class="btn">Hover Me 💫</button>
 
 </body>
 </html>
