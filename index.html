@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Class 10 - CSS Box Model</title>
+  <title>Class 11 - Display, Position & Visibility</title>
   <style>
-    body {
-      background-color: #f9f9f9;
-      font-family: Arial, sans-serif;
-      padding: 30px;
-    }
-
-    .box {
-      background-color: #e0f7fa;
-      border: 2px solid #00796b;
+    .box1 {
+      background-color: lightgreen;
       padding: 20px;
-      margin: 30px;
-      width: 300px;
-      height: 150px;
+      margin-bottom: 10px;
+      display: inline-block;
     }
 
     .box2 {
-      background-color: #ffe0b2;
-      border: 3px dashed #e65100;
-      padding: 10px;
-      margin: 20px;
-      width: 250px;
-      height: 120px;
+      background-color: lightcoral;
+      padding: 20px;
+      position: relative;
+      top: 20px;
+      left: 30px;
+    }
+
+    .box3 {
+      background-color: lightblue;
+      padding: 20px;
+      visibility: hidden;
     }
   </style>
 </head>
 <body>
 
-  <h1>CSS Box Model Example</h1>
+  <h1>CSS Display, Position & Visibility</h1>
 
-  <div class="box">
-    This is Box 1 using solid border, margin, padding and fixed width/height.
-  </div>
-
-  <div class="box2">
-    This is Box 2 with a dashed border, smaller width, and different padding/margin.
-  </div>
+  <div class="box1">Box 1 (display: inline-block)</div>
+  <div class="box2">Box 2 (position: relative, moved)</div>
+  <div class="box3">Box 3 (visibility: hidden)</div>
 
 </body>
 </html>
