@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Class 9 - CSS Colors & Fonts</title>
+  <title>Class 10 - CSS Box Model</title>
   <style>
     body {
-      background-color: #fff8dc;
-      font-family: 'Georgia', serif;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    .box {
+      background-color: #e0f7fa;
+      border: 2px solid #00796b;
       padding: 20px;
+      margin: 30px;
+      width: 300px;
+      height: 150px;
     }
 
-    h1 {
-      color: #800080;
-      text-align: center;
-      text-transform: uppercase;
-      text-shadow: 2px 2px #ccc;
-    }
-
-    p {
-      color: #333;
-      font-size: 18px;
-      line-height: 1.6;
-    }
-
-    .highlight {
-      background-color: #ffeb3b;
-      font-weight: bold;
-      font-style: italic;
-      text-decoration: underline;
+    .box2 {
+      background-color: #ffe0b2;
+      border: 3px dashed #e65100;
       padding: 10px;
+      margin: 20px;
+      width: 250px;
+      height: 120px;
     }
   </style>
 </head>
 <body>
 
-  <h1>My Stylish Web Page</h1>
+  <h1>CSS Box Model Example</h1>
 
-  <p>This is a normal paragraph with default styling.</p>
+  <div class="box">
+    This is Box 1 using solid border, margin, padding and fixed width/height.
+  </div>
 
-  <p class="highlight">This paragraph is specially styled using font weight, background, italic and underline.</p>
+  <div class="box2">
+    This is Box 2 with a dashed border, smaller width, and different padding/margin.
+  </div>
 
 </body>
 </html>
