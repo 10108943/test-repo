@@ -2,24 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CSS Box Shadow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Box Shadow Example</title>
   <style>
-    .box {
-      width: 200px;
-      height: 100px;
-      background-color: #ffd700;
-      margin: 50px auto;
+    body {
+      font-family: Arial, sans-serif;
+      padding: 50px;
+      background-color: #f0f0f0;
       text-align: center;
-      line-height: 100px;
-      font-weight: bold;
-      font-size: 18px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .shadow-box {
+      width: 250px;
+      height: 150px;
+      background-color: #ffffff;
+      margin: 0 auto;
+      padding: 20px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
-  <h2>Box Shadow Example</h2>
-  <div class="box">Shadow Box 🌟</div>
+
+  <div class="shadow-box">
+    <h2>Shadow Box 🌟</h2>
+  </div>
+
 </body>
 </html>
