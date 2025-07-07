@@ -1,66 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Class 15 - HTML Tables</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
-      padding: 20px;
-    }
-    table {
-      width: 60%;
-      border-collapse: collapse;
-      margin: 20px auto;
-    }
-    th, td {
-      border: 1px solid #444;
-      padding: 12px;
-      text-align: center;
-    }
-    th {
-      background-color: #007bff;
-      color: white;
-    }
-    tr:nth-child(even) {
-      background-color: #e9ecef;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Semantic HTML Page</title>
 </head>
 <body>
-  <h1 style="text-align:center;">Student Information Table</h1>
+  <header>
+    <h1>🌐 Welcome to My Semantic Page</h1>
+  </header>
 
-  <table>
-    <tr>
-      <th>Roll No</th>
-      <th>Name</th>
-      <th>Class</th>
-      <th>Marks</th>
-    </tr>
-    <tr>
-      <td>01</td>
-      <td>Arjawan</td>
-      <td>10th</td>
-      <td>88</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>Ali</td>
-      <td>10th</td>
-      <td>91</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>Fatima</td>
-      <td>9th</td>
-      <td>85</td>
-    </tr>
-    <tr>
-      <td colspan="3"><strong>Total Students</strong></td>
-      <td><strong>3</strong></td>
-    </tr>
-  </table>
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Introduction</h2>
+      <p>This is a demo of semantic HTML structure. It helps browsers and developers understand the layout better.</p>
+    </section>
+
+    <article>
+      <h2>My First Blog</h2>
+      <p>Today I learned about semantic tags like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, and &lt;footer&gt;. They make code clean!</p>
+    </article>
+
+    <aside>
+      <h3>Sidebar</h3>
+      <p>This is some extra information shown on the side.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 Arjawan Joiya | All rights reserved.</p>
+  </footer>
 </body>
 </html>
